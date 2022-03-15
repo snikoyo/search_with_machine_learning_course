@@ -45,6 +45,12 @@ The results were equally bad :-(
 
 ### What values did you achieve for P@1, R@3, and R@5? 
 
+## Training Parameters
+
+Training was done in `train_model.py`
+
+Parameters: lr=0.2, epoch=50, seed=min_queries,  minn=4, maxn=8, wordNgrams=2
+
 Number of Training examples: 200000
 Number of Testing examples: 20000
 
